@@ -1,0 +1,199 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.container > header{
+    background-image: url(Image/z51256535386657c1d0e817ca22c1280f10274e63212f1_5220241658.jpg);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 30%;
+    position: relative;
+
+}
+.menu .search {
+    margin-left: auto; 
+}
+
+.menu .search input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    
+}
+.menu .buttonS  {
+   margin-right: 60px;
+   transform: scale(1.4);
+}
+
+
+    
+
+.menu .logo img {
+    height:60px; 
+    margin-right: 5px; 
+   
+}
+input{
+    float:right ;
+}
+
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding:0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 2px;
+    background-color: 7695FF;
+    text-align: center;
+    z-index: 10;
+}
+
+.menu>ul>li>a:hover{
+    color:purple;
+}
+
+.menu>ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+    z-index: 100;
+}
+.menu> ul ul a{
+    display:block ;
+    line-height: 30px;
+    color: purple;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0 10px;
+    position: relative;
+
+}
+
+.menu>ul>li:hover>ul{
+    display: block;
+    position: absolute;
+}
+.menu ul ul a:hover{
+    background-color: C4D7FF;
+    color: white;
+}
+marquee{
+    color: FF9874;
+    border: 1px solid gray;
+    z-index: 1;
+    
+}
+.container > article{
+    min-height: 400%;
+    width: 80%;
+    background-color: aliceblue;
+    float: left;
+}
+.container > aside{
+    min-height: 300%;
+    width: 20%;
+    background-color: C4D7FF;
+    float: right;
+    text-align: center  ;
+    padding: 0px;
+    margin: 0px;
+}
+.container > aside * {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-variant: small-caps;
+    
+}
+.container > aside > ul > li > a:hover{
+    color: purple;
+}
+
+.container > footer{
+    border-top: 5px double C68FE6;
+    line-height: 50px;
+    background-color: 87A2FF;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+
+}
+
+
+.vmenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+    width: 100%;
+    line-height: 0; 
+}
+
+.vmenu li {
+
+    margin: 0;
+    line-height: initial; 
+}
+
+.vmenu li a {
+    display: block;
+    background-color: orange;
+    border: 1px solid ;
+    background: url(Image/bullet-orange-alt.png) no-repeat 1px  ;
+    background-color: 7695FF;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+}
+
+.vmenu li a:hover {
+    background-color: FFD7C4;
+    color: white;
+}
+
+.container .GioiThieu{
+    min-height: 200%;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+}
+.container .GioiThieu img{
+    width: 1000px;
+    height: 700px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+
